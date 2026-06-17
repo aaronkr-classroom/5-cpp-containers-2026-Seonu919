@@ -139,9 +139,6 @@
     <ClCompile Include="main_split_str.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="median.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-    </ClCompile>
     <ClCompile Include="split_str.cpp" />
     <ClCompile Include="Student_info.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -149,7 +146,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="grade.h" />
-    <ClInclude Include="median.h" />
     <ClInclude Include="split_str.h" />
     <ClInclude Include="Student_info.h" />
   </ItemGroup>
